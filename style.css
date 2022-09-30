@@ -1,0 +1,93 @@
+   /* wildcard styling */
+	* {
+		box-sizing: border-box;
+	}
+	
+	/* padding for whole body */
+	body {
+		padding: 15px;
+        background-color: rgb(232,237,237);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-image: url(./assets/photo-1531685250784-7569952593d2.avif);
+        object-fit: cover;
+	}
+	
+	/* styling body */
+	.container {
+		max-width: 1200px;
+		margin: auto;
+	}
+	
+	h1,h2 {
+		color: rgb(71,90,132);
+	}
+	
+	/* anchor tag decoration */
+	a {
+		text-decoration: none;
+		color: rgb(71,90,132);
+	}
+	
+	a:hover {
+		color: lightblue;
+	}
+	
+	/* paragraph tag decoration */
+	p {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 4;
+		overflow: hidden;
+
+	}
+	
+	/* row and column decoration */
+	.row {
+		margin: 0px -18px;
+		padding: 8px;
+	}
+	
+	.row > .column {
+		padding: 6px;
+	}
+	
+	.column {
+		float: left;
+		width: 25%;
+	}
+	
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	
+	/* content decoration */
+	.content {
+		background-color: white;
+		padding: 10px;
+		border: 1px solid gray;
+	}
+
+    .column:hover {
+        background-color: black;
+    }
+
+    .icons-bottom {
+        z-index: 3;
+        bottom: 15px;
+        left: 15px;
+        display: none;
+      }
+
+      .icons-bottom div {
+        background-color: white;
+        opacity: 0.7;
+        color: black;
+        padding: 10px 15px;
+        display: inline-block;
+        border-radius: 30px;
+        font-weight: 600;
+        margin-right: 8px;
+      }
+

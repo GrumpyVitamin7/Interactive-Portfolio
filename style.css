@@ -26,6 +26,7 @@
 	a {
 		text-decoration: none;
 		color: rgb(71,90,132);
+        transition: 1s ease;
 	}
 	
 	a:hover {
@@ -61,6 +62,10 @@
 		display: table;
 		clear: both;
 	}
+
+    .column:hover {
+        background-color: black;
+    }
 	
 	/* content decoration */
 	.content {
@@ -69,9 +74,6 @@
 		border: 1px solid gray;
 	}
 
-    .column:hover {
-        background-color: black;
-    }
 
     .icon-container {
         display: flex;
@@ -113,5 +115,3 @@
           filter: hue-rotate(360deg);
         }
       }
-
-
